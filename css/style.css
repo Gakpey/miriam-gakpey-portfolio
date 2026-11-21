@@ -242,12 +242,12 @@ a, button { -webkit-tap-highlight-color: transparent; }
 /* ============================================================
    PUBLICATIONS
    ============================================================ */
-.pub-feature { background: var(--ink); color: var(--cream); border-radius: 2px; padding: var(--space-4); margin-bottom: var(--space-6); }
-.pub-badge { display: inline-block; font-size: .66rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--cream); border: 1px solid color-mix(in srgb, var(--cream) 40%, transparent); padding: .3rem .7rem; }
-.pub-feature h3 { color: var(--cream); font-size: 1.4rem; max-width: 46rem; margin: 1.25rem 0 .75rem; line-height: 1.35; }
-.pub-authors { color: color-mix(in srgb, var(--cream) 72%, transparent); font-size: .88rem; margin-bottom: 1.25rem; }
-.pub-link { display: inline-flex; align-items: center; gap: .5rem; color: var(--cream); font-weight: 600; font-size: .86rem; border-bottom: 1px solid var(--caramel); padding-bottom: .15rem; }
-.pub-link:hover { color: var(--white); border-color: var(--white); }
+.pub-feature { background: var(--cream); color: var(--ink); border: 1px solid var(--line); border-radius: 2px; padding: var(--space-4); margin-bottom: var(--space-6); }
+.pub-badge { display: inline-block; font-size: .66rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--coffee); border: 1px solid var(--line); padding: .3rem .7rem; }
+.pub-feature h3 { color: var(--ink); font-size: 1.4rem; max-width: 46rem; margin: 1.25rem 0 .75rem; line-height: 1.35; }
+.pub-authors { color: var(--muted); font-size: .88rem; margin-bottom: 1.25rem; }
+.pub-link { display: inline-flex; align-items: center; gap: .5rem; color: var(--coffee); font-weight: 600; font-size: .86rem; border-bottom: 1px solid var(--caramel); padding-bottom: .15rem; }
+.pub-link:hover { color: var(--ink); border-color: var(--ink); }
 .proc-item { display: grid; grid-template-columns: 4rem 1fr auto; gap: var(--grid-gap); align-items: start; padding: var(--space-3) 0; border-bottom: 1px solid var(--line); }
 .proc-year { font-size: .8rem; font-weight: 600; color: var(--coffee); padding-top: .2rem; }
 .proc-body h4 { font-size: 1rem; line-height: 1.45; margin-bottom: .35rem; }
@@ -341,8 +341,8 @@ a, button { -webkit-tap-highlight-color: transparent; }
   }
   .hero::before { background: var(--paper); }
   .edu-card, .project-card, .skill-group, .list-card, .award { background: var(--white); }
-  .pub-feature, .contact-card { background: var(--ink); color: var(--cream); }
-  .pub-feature h3, .contact-card h2 { color: var(--cream); }
+  .contact-card { background: var(--ink); color: var(--cream); }
+  .contact-card h2 { color: var(--cream); }
   .btn-solid { background: var(--coffee); color: var(--cream); }
   .btn-line { border-color: var(--coffee); color: var(--coffee); }
 }
